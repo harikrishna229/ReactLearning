@@ -10,8 +10,13 @@
         <!-- <h1>Hello world</h1> -->
     </div>
     <script>
-        var root=document.getElementById("root");
-        root.innerHTML="hello world";
+        // var root=document.getElementById("root");
+        // root.innerHTML="hello world";
+    let heading=document.createElement("h1");
+    heading.innerHTML="Hello World from javascript";
+
+    const root=document.getElementById("root");
+    root.appendChild(heading);
     </script>
 </body>
 </html>
